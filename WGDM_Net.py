@@ -98,7 +98,7 @@ class Encoder(nn.Module):
         return x
 
 
-class WGDNet(nn.Module):
+class WGDMNet(nn.Module):
     def __init__(self, dim=768, depth=12, mlp_dim=3072, num_heads=8, drop_rate=0.1, num_centers=512, num_neighbour=32,
                  extra_feature_channels=0, use_surface_project=False, projection_dim=64, wave_attn_dim=64):
         super().__init__()
